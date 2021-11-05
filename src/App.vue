@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <CircleProgress :value="60" :size="150" :color="'#d36'"  :duration="3000" />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import CircleProgress from './components/CircleProgress.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    CircleProgress
   }
 }
 </script>

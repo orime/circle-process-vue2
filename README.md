@@ -1,4 +1,4 @@
-# round-process
+# circle-process
 
 ## Project setup
 ```
@@ -20,5 +20,9 @@ yarn build
 yarn lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 简易教程
+
+- `yarn global add @vue/cli`
+- `vue --version`
+- `vue create circle-process`
+- 剩下如代码所示……
